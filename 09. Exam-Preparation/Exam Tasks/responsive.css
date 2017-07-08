@@ -1,0 +1,34 @@
+@media screen and (max-width: 500px) {
+	.container .contacts {
+		display: flex;
+		flex-direction: column;
+	}
+	.container .contacts li a {
+		font-size: 1.2rem;
+	}
+	.header > ul {
+	display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.1rem;
+    width: 40%;
+	}
+	body .content .container > p {
+		font-size: 1.5rem;
+	}
+	body .content .container h2 {
+		font-size: 2rem;
+	}
+	.footer > ul {
+	display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.1rem;
+    width: 40%;
+	}
+	.footer p {
+		font-size: 1.2rem;
+	}
+}
