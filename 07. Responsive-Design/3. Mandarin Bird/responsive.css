@@ -1,0 +1,89 @@
+/*TODO*/
+@media screen and (min-width: 730px) {
+	body #wrapper {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		width: 100%
+	}
+	body #wrapper header > p {
+		margin: 10px;
+	}
+	body #wrapper header nav {
+		margin-top: 0;
+	}
+	header nav > ul {
+		margin-top: 0;
+	}
+	header nav > ul li {
+		width: 20%
+	}
+	main section {
+		float: none;
+		width: 100%;
+	}
+	main aside{
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	body #wrapper {
+		display: flex;
+		flex-flow: row wrap;
+		width: 100%
+	}
+	body #wrapper header {
+		font-size: 46px;
+		margin-bottom: 10px;
+		border-bottom: none;
+	}
+	header > h1 {
+		line-height: 35px;
+	}
+	body #wrapper header > p {
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	body #wrapper header nav {
+		margin-top: 0;
+	}
+	
+	header nav > ul li {
+		display: block;
+		width: 100%;
+	}
+	header nav > ul {
+		margin-top: 0;
+	}
+	main section {
+		float: none;
+		width: calc(100% - 20px);
+	}
+	main section > div {
+		height: 100%;
+	}
+	main section div > div {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: #b7cc89;
+	}
+	main > section > div > article > h3 {
+		text-align: center;
+	}
+	main > section > div > article > p {
+		text-align: justify;
+	}
+	main aside{
+		float: none;
+		width: 100%;
+	}
+	main > aside > article > h1,h2 {
+		text-align: center;
+	}
+	main > aside > article > p {
+		text-align: justify;
+	}
+}
