@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin: 0 auto;
+}
+body > header {
+	background: linear-gradient( rgba(60, 63, 73, .9), rgba(60, 63, 73,.9) ),url('img/header-bg.png') no-repeat;
+	background-size: cover;
+	height: 750px;
+	opacity: .9;
+	color: #ffffff;
+}
+header > h1 {
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	margin: 0;
+	width: 150px;
+	padding: 25px;
+}
+.prim-nav {
+	list-style: none;
+	position: relative;
+	width: 360px;
+	left: 940px;
+	top: -57px;
+}
+.nav-item {
+	display: inline-block;
+	padding-right: 25px;
+}
+.nav-item > a {
+	font-weight: 600;
+	font-size: 0.8rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.nav-item > a:hover {
+	cursor: pointer;
+	color: #fa692e;
+}
+header > div {
+	padding-top: 150px;
+}
+header > div > p {
+	text-align: center;
+	font-size: 1.4rem;
+}
+header > div > p > span {
+	font-weight: 600;
+}
+.fa-play-circle {
+	position: relative;
+	top: -65px;
+	left: 1070px;
+}
+.fa-play-circle:hover { 
+	cursor: pointer;
+	color: #fa692e;
+}
+.benefits {
+	padding-top: 200px;
+}
+.benefits > ul {
+	list-style: none;
+	margin: 0 auto;
+	padding-left: 80px;
+}
+.benefits > ul > li {
+	display: inline-block;
+	padding-right: 30px;
+	padding-bottom: 95px;
+	width: 280px;
+	float: left;
+}
+.benefits ul .primo {
+	padding-bottom: 77px;
+}
+.benefits  > ul > li > a {
+	font-size: 0.9rem;
+	text-decoration: none;
+	color: #ffffff;
+}
+.benefits  ul li:hover {
+	cursor: pointer;
+	border-bottom: 8px solid #fa692e;
+}
